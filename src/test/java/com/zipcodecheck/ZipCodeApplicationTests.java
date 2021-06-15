@@ -36,7 +36,7 @@ class ZipCodeApplicationTests {
 		List<ZipCode> list = zipCodeFinder.findZipCodeRestrictions(input);
 		assertEquals(2,list.size());
 		assertTrue(list.toString().contains("[94133,94133]"));
-		assertTrue(list.toString().contains("[94200,94399]"));		
+		assertTrue(list.toString().contains("[sdfw342342,sdfsdf23424]"));		
 	}
 	
 	
